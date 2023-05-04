@@ -53,3 +53,5 @@ keymap.set("n", "]", "5j", {noremap = true, silent = true});
 
 -- 模糊查找
 keymap.set("n", "<leader>ff", "<Cmd>Telescope find_files<CR>", {noremap = true, silent = true})
+
+keymap.set({"n", "v"}, "9", "$", {noremap = true})

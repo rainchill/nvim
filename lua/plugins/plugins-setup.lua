@@ -86,6 +86,13 @@ return require('packer').startup(function(use)
     }
     -- 启动界面
     use {'glepnir/dashboard-nvim'}
+
+    -- markdown 预览
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
+
     if packer_bootstrap then
         require('packer').sync()
     end
