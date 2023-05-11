@@ -1,5 +1,4 @@
 local opt = vim.opt
-
 -- 行号
 opt.relativenumber = true
 opt.number = true
@@ -34,6 +33,6 @@ opt.termguicolors = true
 opt.signcolumn = "yes"
 
 -- 主题
-vim.cmd [[colorscheme tokyonight-storm]]
+vim.cmd [[colorscheme tokyonight-night]]
 -- vim.o.background = "dark" -- or "light" for light mode
 -- vim.cmd([[colorscheme gruvbox]])

@@ -60,6 +60,6 @@ keymap.set("n", "]", "5j", { noremap = true, silent = true });
 -- 模糊查找
 keymap.set("n", "<leader>ff", "<Cmd>Telescope find_files<CR>", { noremap = true, silent = true })
 
-keymap.set({ "n", "v" }, "9", "$", { noremap = true })
+-- keymap.set({ "n", "v" }, "<leader>9", "$", { noremap = true })
 
-keymap.set("n", "lg", ":term lg<CR>", { noremap = true, silent = true })
+keymap.set("n", "<leader>lg", ":term lg<CR>", { noremap = true, silent = true })
