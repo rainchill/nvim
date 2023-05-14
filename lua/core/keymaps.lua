@@ -63,3 +63,7 @@ keymap.set("n", "<leader>ff", "<Cmd>Telescope find_files<CR>", { noremap = true,
 -- keymap.set({ "n", "v" }, "<leader>9", "$", { noremap = true })
 
 keymap.set("n", "<leader>lg", ":term lg<CR>", { noremap = true, silent = true })
+
+-- accelerated-jk 加速 jk
+vim.api.nvim_set_keymap('n', 'j', '<Plug>(accelerated_jk_gj)', {})
+vim.api.nvim_set_keymap('n', 'k', '<Plug>(accelerated_jk_gk)', {})

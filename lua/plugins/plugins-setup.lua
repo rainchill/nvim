@@ -24,9 +24,10 @@ vim.cmd([[
 
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
-    use 'folke/tokyonight.nvim' -- 主题
-    -- use { "ellisonleao/gruvbox.nvim" }                               -- 主题
-    use { 'nvim-lualine/lualine.nvim',                             -- 状态栏
+    use 'folke/tokyonight.nvim'                                  -- 主题
+    use 'Mofiqul/vscode.nvim'
+    use { "ellisonleao/gruvbox.nvim" }                           -- 主题
+    use { 'nvim-lualine/lualine.nvim',                           -- 状态栏
         requires = { 'nvim-tree/nvim-web-devicons', opt = true } -- 状态栏图标
     }
     use {
@@ -38,7 +39,7 @@ return require('packer').startup(function(use)
             require("nvim-tree").setup {}
         end
     }
-    use {"nvim-tree/nvim-web-devicons"}
+    use { "nvim-tree/nvim-web-devicons" }
     use("christoomey/vim-tmux-navigator")           -- 用ctl-hjkl来定位窗口
     use("nvim-treesitter/nvim-treesitter")          -- 语法高亮
     use("p00f/nvim-ts-rainbow")                     -- 配合treesitter，不同括号颜色区分
@@ -61,11 +62,11 @@ return require('packer').startup(function(use)
         "williamboman/mason.nvim",
         run = ":MasonUpdate" -- :MasonUpdate updates registry contents
     }
-    use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+    use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
     use "theHamsta/nvim-dap-virtual-text"
-    use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    use { "akinsho/toggleterm.nvim", tag = '*', config = function()
         require("toggleterm").setup()
-    end}
+    end }
     -- 缩进
     use "lukas-reineke/indent-blankline.nvim"
     -- 注释
@@ -77,21 +78,30 @@ return require('packer').startup(function(use)
     }
 
     -- 代码折叠
-    use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
+    use { 'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async' }
 
     -- 模糊查找
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
-        requires = { {'nvim-lua/plenary.nvim'} }
+        requires = { { 'nvim-lua/plenary.nvim' } }
     }
     -- 启动界面
-    use {'glepnir/dashboard-nvim'}
+    use { 'glepnir/dashboard-nvim' }
 
     -- markdown 预览
     use({
         "iamcco/markdown-preview.nvim",
         run = function() vim.fn["mkdp#util#install"]() end,
     })
+
+    -- 加速 jk
+    use { 'rainbowhxch/accelerated-jk.nvim' }
+
+    -- scrollbar
+    use 'dstein64/nvim-scrollview'
+
+    -- -- 平滑滚动
+    -- use 'karb94/neoscroll.nvim'
 
     if packer_bootstrap then
         require('packer').sync()

@@ -1,5 +1,6 @@
 -- 代码补全语言
-vim.g.coc_global_extensions = { 'coc-json', 'coc-vimlsp', 'coc-lua', 'coc-clangd', 'coc-pairs', 'coc-snippets' }
+vim.g.coc_global_extensions = { 'coc-json', 'coc-vimlsp', 'coc-lua', 'coc-clangd', 'coc-pairs', 'coc-snippets',
+    'coc-cmake' }
 
 -- Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
 -- delays and poor user experience
