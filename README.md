@@ -94,5 +94,4 @@ treesitter 报错 保持 node 版本最新
 |     `<c-p>`      | 切换到 buffeline 前一个文件 |
 |     `<c-n>`      | 切换到 buffeline 后一个文件 |
 |     `<c-a>`      |      noremal 模式全选       |
-|     `<c-g>`      |          呼出终端           |
 |   `<leader>lg`   |        调出 lazygit         |
