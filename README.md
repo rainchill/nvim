@@ -76,13 +76,13 @@ treesitter 报错 保持 node 版本最新
 | :--------------: | :-------------------------: |
 |      `gcc`       |     noremal 模式下注释      |
 |       `gc`       |      visual 模式下注释      |
-|  `<c-h/j/k/l>`   |          窗口移动           |
+|  `<C-h/j/k/l>`   |          窗口移动           |
 |     `<A-\>`      |        打开关闭终端         |
 |     `<A-d>`      |      打开浮动关闭终端       |
 | `:ToggleTerm id` |     打开标号 id 的终端      |
 |       `gd`       |       跳转到代码定义        |
-|     `<c-i>`      |   前往下一个文件光标位置    |
-|     `<c-o>`      |   返回上一个文件光标位置    |
+|     `<C-i>`      |   前往下一个文件光标位置    |
+|     `<C-o>`      |   返回上一个文件光标位置    |
 |   `<leader>ff`   |     telescope 查找文件      |
 |   `<leader>nh`   |        取消查找高亮         |
 |   `<leader>e`    |       呼出 nvim-tree        |
@@ -91,7 +91,7 @@ treesitter 报错 保持 node 版本最新
 |       `9`        |         跳转到行尾          |
 |       `S`        |        保存当前文件         |
 |       `Q`        |    不保存地退出当前文件     |
-|     `<c-p>`      | 切换到 buffeline 前一个文件 |
-|     `<c-n>`      | 切换到 buffeline 后一个文件 |
-|     `<c-a>`      |      noremal 模式全选       |
+|     `<C-p>`      | 切换到 buffeline 前一个文件 |
+|     `<C-n>`      | 切换到 buffeline 后一个文件 |
+|     `<C-a>`      |      noremal 模式全选       |
 |   `<leader>lg`   |        调出 lazygit         |

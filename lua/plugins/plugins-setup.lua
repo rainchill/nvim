@@ -101,7 +101,7 @@ return require('packer').startup(function(use)
     use 'dstein64/nvim-scrollview'
 
     -- -- 平滑滚动
-    -- use 'karb94/neoscroll.nvim'
+    use 'karb94/neoscroll.nvim'
 
     if packer_bootstrap then
         require('packer').sync()

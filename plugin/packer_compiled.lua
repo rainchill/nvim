@@ -125,6 +125,11 @@ _G.packer_plugins = {
     path = "/home/zhra1n/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["neoscroll.nvim"] = {
+    loaded = true,
+    path = "/home/zhra1n/.local/share/nvim/site/pack/packer/start/neoscroll.nvim",
+    url = "https://github.com/karb94/neoscroll.nvim"
+  },
   ["nvim-dap"] = {
     loaded = true,
     path = "/home/zhra1n/.local/share/nvim/site/pack/packer/start/nvim-dap",
