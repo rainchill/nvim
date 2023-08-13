@@ -1,1 +1,15 @@
 require('telescope').setup()
+
+local builtin = require('telescope.builtin')
+
+vim.keymap.set('n', '<leader>/', builtin.current_buffer_fuzzy_find)
+-- vim.keymap.set('n', '<C-p>', builtin.find_files)
+vim.keymap.set('n', '<leader>f', builtin.find_files)
+-- vim.keymap.set('n', '<C-o>', builtin.current_buffer_tags)
+vim.keymap.set('n', 'gs', function()
+    builtin.grep_string({ word_match = '-w' })
+end)
+vim.keymap.set('v', 'gs', function()
+    vim.cmd.normal('"fy')
+    builtin.grep_string({ search = vim.fn.getreg('"f') })
+end)

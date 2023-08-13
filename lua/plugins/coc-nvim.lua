@@ -71,8 +71,8 @@ keyset("n", "<leader>rn", "<Plug>(coc-rename)", { silent = true })
 
 -- Formatting selected code
 -- 代码格式化
-keyset("x", "<leader>f", "<Plug>(coc-format-selected)", { silent = true })
-keyset("n", "<leader>f", "<Plug>(coc-format-selected)", { silent = true })
+-- keyset("x", "<leader>f", "<Plug>(coc-format-selected)", { silent = true })
+-- keyset("n", "<leader>f", "<Plug>(coc-format-selected)", { silent = true })
 
 -- Apply codeAction to the selected region
 -- Example: `<leader>aap` for current paragraph

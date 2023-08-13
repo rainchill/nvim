@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-
+vim.g.tags = "/home/zyh/work/wtimer/tags"
 local keymap = vim.keymap
 ----------------------- 插入模式 ----------------------- keymap.set("i", "jk", "<Esc>") --------------------- 视觉模式 -----------------------
 -- 单行或多行移动
@@ -24,7 +24,7 @@ keymap.set("n", "Q", ":q!<CR>")
 keymap.set("n", "S", ":w<CR>", { noremap = true })
 keymap.set("n", "<C-a>", "ggVG")
 
--- vscode debuy 快捷键
+-- vscode debug 快捷键
 keymap.set({ "i", "n", "v" }, "<F5>", "<cmd>lua require'dap'.continue()<CR>",
     { silent = true, noremap = true, buffer = bufnr })
 keymap.set({ "i", "n", "v" }, "<F10>", "<cmd>lua require'dap'.step_over()<CR>",
@@ -58,7 +58,7 @@ keymap.set("n", "]", "5j", { noremap = true, silent = true });
 -- keymap.set("n", "<c-m>", "gcc", {noremap = true})
 
 -- 模糊查找
-keymap.set("n", "<leader>ff", "<Cmd>Telescope find_files<CR>", { noremap = true, silent = true })
+-- keymap.set("n", "<leader>ff", "<Cmd>Telescope find_files<CR>", { noremap = true, silent = true })
 
 -- keymap.set({ "n", "v" }, "<leader>9", "$", { noremap = true })
 

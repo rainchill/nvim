@@ -1,0 +1,74 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/zyh/.config/nvim/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+0	coc-settings.json	/^  "snippets.ultisnips.directories": ["UltiSnips"]$/;"	s	array:snippets.ultisnips.directories
+_G.check_back_space	lua/plugins/coc-nvim.lua	/^function _G.check_back_space()$/;"	f
+_G.show_docs	lua/plugins/coc-nvim.lua	/^function _G.show_docs()$/;"	f
+class	coc-settings.json	/^    "class": "\\uf0e8",$/;"	s	object:suggest.completionItemKindLabels
+coc.preferences.extensionUpdateCheck	coc-settings.json	/^  "coc.preferences.extensionUpdateCheck": "weekly",$/;"	s
+codeLens.enable	coc-settings.json	/^  "codeLens.enable": true,$/;"	b
+color	coc-settings.json	/^    "color": "\\ue22b",$/;"	s	object:suggest.completionItemKindLabels
+config	lua/plugins/plugins-setup.lua	/^        config = function()$/;"	f
+constant	coc-settings.json	/^    "constant": "\\uf8fe",$/;"	s	object:suggest.completionItemKindLabels
+dap.listeners.after.event_initialized["dapui_config"]	lua/plugins/dapui.lua	/^dap.listeners.after.event_initialized["dapui_config"] = function()$/;"	f
+dap.listeners.before.event_exited["dapui_config"]	lua/plugins/dapui.lua	/^dap.listeners.before.event_exited["dapui_config"] = function()$/;"	f
+dap.listeners.before.event_terminated["dapui_config"]	lua/plugins/dapui.lua	/^dap.listeners.before.event_terminated["dapui_config"] = function()$/;"	f
+default	coc-settings.json	/^    "default": "\\uf29c",$/;"	s	object:suggest.completionItemKindLabels
+diagnostic.checkCurrentLine	coc-settings.json	/^  "diagnostic.checkCurrentLine": true,$/;"	b
+diagnostic.displayByAle	coc-settings.json	/^  "diagnostic.displayByAle": false,$/;"	b
+diagnostic.errorSign	coc-settings.json	/^  "diagnostic.errorSign": "\\uf467",$/;"	s
+diagnostic.hintSign	coc-settings.json	/^  "diagnostic.hintSign": "\\uf864",$/;"	s
+diagnostic.infoSign	coc-settings.json	/^  "diagnostic.infoSign": "\\uf129",$/;"	s
+diagnostic.refreshOnInsertMode	coc-settings.json	/^  "diagnostic.refreshOnInsertMode": false,$/;"	b
+diagnostic.signOffset	coc-settings.json	/^  "diagnostic.signOffset": 1,$/;"	n
+diagnostic.virtualText	coc-settings.json	/^  "diagnostic.virtualText": false,$/;"	b
+diagnostic.virtualTextPrefix	coc-settings.json	/^  "diagnostic.virtualTextPrefix": " ❯❯❯ ",$/;"	s
+diagnostic.warningSign	coc-settings.json	/^  "diagnostic.warningSign": "\\uf071",$/;"	s
+ensure_packer	lua/plugins/plugins-setup.lua	/^local ensure_packer = function()$/;"	f
+enum	coc-settings.json	/^    "enum": "\\uf435",$/;"	s	object:suggest.completionItemKindLabels
+enumMember	coc-settings.json	/^    "enumMember": "\\uf02b",$/;"	s	object:suggest.completionItemKindLabels
+error_msg	plugin/packer_compiled.lua	/^local no_errors, error_msg = pcall(function()$/;"	f
+event	coc-settings.json	/^    "event": "\\ufacd",$/;"	s	object:suggest.completionItemKindLabels
+field	coc-settings.json	/^    "field": "\\uf93d",$/;"	s	object:suggest.completionItemKindLabels
+file	coc-settings.json	/^    "file": "\\uf723",$/;"	s	object:suggest.completionItemKindLabels
+folder	coc-settings.json	/^    "folder": "\\uf115",$/;"	s	object:suggest.completionItemKindLabels
+function	coc-settings.json	/^    "function": "\\u0192",$/;"	s	object:suggest.completionItemKindLabels
+interface	coc-settings.json	/^    "interface": "\\uf417",$/;"	s	object:suggest.completionItemKindLabels
+keyword	coc-settings.json	/^    "keyword": "\\uf1de",$/;"	s	object:suggest.completionItemKindLabels
+linux	README.md	/^#### linux$/;"	t	section:安装
+method	coc-settings.json	/^    "method": "\\uf6a6",$/;"	s	object:suggest.completionItemKindLabels
+module	coc-settings.json	/^    "module": "\\uf40d",$/;"	s	object:suggest.completionItemKindLabels
+operator	coc-settings.json	/^    "operator": "\\uf915",$/;"	s	object:suggest.completionItemKindLabels
+program	lua/plugins/dap/cpp.lua	/^    program = function()$/;"	f
+property	coc-settings.json	/^    "property": "\\ue624",$/;"	s	object:suggest.completionItemKindLabels
+pythonPath	lua/plugins/dap/python.lua	/^        pythonPath = function ()$/;"	f
+reference	coc-settings.json	/^    "reference": "\\ufa46",$/;"	s	object:suggest.completionItemKindLabels
+run	lua/plugins/plugins-setup.lua	/^        run = function() vim.fn["mkdp#util#install"]() end,$/;"	f
+save_profiles	plugin/packer_compiled.lua	/^local function save_profiles(threshold)$/;"	f
+snippet	coc-settings.json	/^    "snippet": "\\ue60b",$/;"	s	object:suggest.completionItemKindLabels
+snippets.ultisnips.directories	coc-settings.json	/^  "snippets.ultisnips.directories": ["UltiSnips"]$/;"	a
+snippets.ultisnips.pythonPrompt	coc-settings.json	/^  "snippets.ultisnips.pythonPrompt": false,$/;"	b
+struct	coc-settings.json	/^    "struct": "\\ufb44",$/;"	s	object:suggest.completionItemKindLabels
+suggest.completionItemKindLabels	coc-settings.json	/^  "suggest.completionItemKindLabels": {$/;"	o
+suggest.enablePreselect	coc-settings.json	/^  "suggest.enablePreselect": false,$/;"	b
+suggest.noselect	coc-settings.json	/^  "suggest.noselect": true,$/;"	b
+tag	lua/plugins/plugins-setup.lua	/^    use { "akinsho\/toggleterm.nvim", tag = '*', config = function()$/;"	f
+text	coc-settings.json	/^    "text": "\\ue612",$/;"	s	object:suggest.completionItemKindLabels
+time	plugin/packer_compiled.lua	/^  time = function(chunk, start) end$/;"	f
+time	plugin/packer_compiled.lua	/^  time = function(chunk, start)$/;"	f
+try_loadstring	plugin/packer_compiled.lua	/^local function try_loadstring(s, component, name)$/;"	f
+typeParameter	coc-settings.json	/^    "typeParameter": "\\uf728",$/;"	s	object:suggest.completionItemKindLabels
+unit	coc-settings.json	/^    "unit": "\\uf475",$/;"	s	object:suggest.completionItemKindLabels
+value	coc-settings.json	/^    "value": "\\uf89f",$/;"	s	object:suggest.completionItemKindLabels
+variable	coc-settings.json	/^    "variable": "\\ue71b"$/;"	s	object:suggest.completionItemKindLabels
+介绍	README.md	/^## 介绍$/;"	s
+安装	README.md	/^## 安装$/;"	s
+快捷键	README.md	/^## 快捷键$/;"	s

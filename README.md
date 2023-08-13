@@ -83,7 +83,7 @@ treesitter 报错 保持 node 版本最新
 |       `gd`       |       跳转到代码定义        |
 |     `<C-i>`      |   前往下一个文件光标位置    |
 |     `<C-o>`      |   返回上一个文件光标位置    |
-|   `<leader>ff`   |     telescope 查找文件      |
+|   `<leader>f`    |     telescope 查找文件      |
 |   `<leader>nh`   |        取消查找高亮         |
 |   `<leader>e`    |       呼出 nvim-tree        |
 |   `<leader>rn`   |       批量修改变量名        |
@@ -95,3 +95,5 @@ treesitter 报错 保持 node 版本最新
 |     `<C-n>`      | 切换到 buffeline 后一个文件 |
 |     `<C-a>`      |      noremal 模式全选       |
 |   `<leader>lg`   |        调出 lazygit         |
+|   `<leader>/`    |     在当前文件搜索关键词    |
+|      `gs`        |    在普通模式下设置为使用全词匹配搜索光标下的词 |

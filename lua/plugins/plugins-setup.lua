@@ -40,10 +40,11 @@ return require('packer').startup(function(use)
         end
     }
     use { "nvim-tree/nvim-web-devicons" }
-    use("christoomey/vim-tmux-navigator")           -- 用ctl-hjkl来定位窗口
-    use("nvim-treesitter/nvim-treesitter")          -- 语法高亮
-    use("p00f/nvim-ts-rainbow")                     -- 配合treesitter，不同括号颜色区分
-    use { 'neoclide/coc.nvim', branch = 'release' } -- coc.nvim
+    use("christoomey/vim-tmux-navigator")             -- 用ctl-hjkl来定位窗口
+    use("nvim-treesitter/nvim-treesitter")            -- 语法高亮
+    use("p00f/nvim-ts-rainbow")                       -- 配合treesitter，不同括号颜色区分
+    use { 'neoclide/coc.nvim', branch = 'release' }   -- coc.nvim
+    use { 'nvim-treesitter/nvim-treesitter-context' } -- 对应vim的context.vim
     -- use {                                           -- 括号匹配
     --  "windwp/nvim-autopairs",
     --  config = function() require("nvim-autopairs").setup {} end
@@ -102,6 +103,8 @@ return require('packer').startup(function(use)
 
     -- -- 平滑滚动
     use 'karb94/neoscroll.nvim'
+
+    -- use 'ludovicchabant/vim-gutentags'
 
     if packer_bootstrap then
         require('packer').sync()

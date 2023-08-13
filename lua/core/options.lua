@@ -9,6 +9,8 @@ opt.shiftwidth = 4
 opt.expandtab = true
 opt.autoindent = true
 
+-- 光标当前行的高亮颜色
+-- vim.api.nvim_command(':hi cursorline guibg=#00ff00')
 -- 防止包裹
 opt.wrap = true
 
@@ -39,6 +41,7 @@ opt.signcolumn = "yes"
 
 -- vim.cmd('colorscheme pablo')
 
+-- vscode theme
 -- Lua:
 -- For dark theme (neovim's default)
 vim.o.background = 'dark'
@@ -51,13 +54,13 @@ require('vscode').setup({
     -- style = 'light'
 
     -- Enable transparent background
-    transparent = true,
+    transparent = false,
 
     -- Enable italic comment
     italic_comments = false,
 
     -- Disable nvim-tree background color
-    disable_nvimtree_bg = true,
+    disable_nvimtree_bg = false,
 
     -- Override colors (see ./lua/vscode/colors.lua)
     color_overrides = {
@@ -73,4 +76,31 @@ require('vscode').setup({
 })
 require('vscode').load()
 
--- vim.cmd [[  hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white ]]
+-- vim.cmd [[  hi CursorLine   cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE]]
+-- setup must be called before loading the colorscheme
+-- Default options:
+require("gruvbox").setup({
+    undercurl = true,
+    underline = true,
+    bold = true,
+    italic = {
+        strings = false,
+        comments = false,
+        operators = false,
+        folds = false,
+    },
+    strikethrough = true,
+    invert_selection = false,
+    invert_signs = false,
+    invert_tabline = false,
+    invert_intend_guides = false,
+    inverse = true, -- invert background for search, diffs, statuslines and errors
+    contrast = "",  -- can be "hard", "soft" or empty string
+    palette_overrides = {},
+    overrides = {},
+    dim_inactive = false,
+    transparent_mode = false,
+})
+vim.cmd("colorscheme gruvbox")
+
+vim.api.nvim_set_option('tags', '/home/zyh/work/wtimer/tags')
