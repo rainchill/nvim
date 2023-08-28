@@ -67,3 +67,9 @@ keymap.set("n", "<leader>lg", ":term lazygit<CR>", { noremap = true, silent = tr
 -- accelerated-jk 加速 jk
 vim.api.nvim_set_keymap('n', 'j', '<Plug>(accelerated_jk_gj)', {})
 vim.api.nvim_set_keymap('n', 'k', '<Plug>(accelerated_jk_gk)', {})
+
+-- 插入模式下移动光标
+keymap.set("i", "<C-h>", "<Left>", { noremap = true })
+keymap.set("i", "<C-j>", "<Down>", { noremap = true })
+keymap.set("i", "<C-k>", "<Up>", { noremap = true })
+keymap.set("i", "<C-l>", "<Right>", { noremap = true })

@@ -81,4 +81,4 @@ keyset("x", "<leader>a", "<Plug>(coc-codeaction-selected)", opts)
 keyset("n", "<leader>a", "<Plug>(coc-codeaction-selected)", opts)
 
 -- Use <c-space> to trigger completion
-keyset("i", "<c-k>", "coc#refresh()", { silent = true, expr = true })
+-- keyset("i", "<c-k>", "coc#refresh()", { silent = true, expr = true })
